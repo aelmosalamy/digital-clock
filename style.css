@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("background-pattern.gif");
+}
+
+.main {
+    background: #ccc;
+    width: 400px;
+    height: 175px;
+    margin: 200px auto;
+    position: relative;
+    padding: 5px;
+    opacity: 0.92;
+    border-radius: 10px;
+}
+
+.badge {
+    background: #da7bcd;
+    color: white;
+    padding: 5px 5px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top: -15px;
+    left: 40%;
+}
+
+.clock {
+    background-color: #ebebeb;
+    text-align: center;
+    font-size: 50px;
+    height: 100%;
+    padding-top: 45px;
+    font-family: Orbitron, sans-serif;
+    border-radius: 10px;
+
+}
